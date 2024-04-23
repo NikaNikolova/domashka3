@@ -139,14 +139,14 @@ public:
 class MobilePhone // ��������� �������
 {
 public:
-	string color_phone = "white";
+	string color_phone = "black";
 	string brand = "iphone";
 	bool case_phone = true;
-	string case_color = "purple";
+	string case_color = "black";
 	int count_camers = 2;
 	string port_type = "lightning";
 	double prise = 25999; //$
-	int count_contact = 32;
+	int count_contact = 52;
 	string call;
 	void PhoneCall()
 	{
@@ -306,7 +306,7 @@ int main()
 	m.laugh = "��-��-��!";
 	m.energy = 90;//%
 	m.age = 18;//����
-	m.growth = 170.2;//��
+	m.growth = 157.2;//��
 	m.hair_color = "���";
 	m.gender = "����";
 	m.tshirts = true;
